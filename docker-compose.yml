@@ -1,0 +1,8 @@
+services:
+
+  # Простой docker-контейнер для проверки работы docker-compose
+  simple-container:
+    image: alpine
+    #container_name: $APP_NAME-simple-container
+    container_name: simple-container
+    command: "echo 'Hello from Docker Compose!'"
